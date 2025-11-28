@@ -1,16 +1,16 @@
 Incident Title: Failed Login Attempt on Local Workstation
-Serveirty: Low
+Severity: Low
 Date/Time Detected: 11/23/2025 | 10:42pm EST
 Analyst: Kelvin Tejada
 
 Summary:
-There was a single login in attemped (Event 4625) on the workstation. The attempeted targeted the local user <Redacted>. The authentication failiure was cause by an incorrect password attempt. The logon type was 2 (Interactive), meaning that the attempet happened locally at the keyboard, not over the network. The source was <Redacted> <private-ip>.
+There was a single login in attempted (Event 4625) on the workstation. The attempt targeted the local user <Redacted>. The authentication failure was caused by an incorrect password attempt. The logon type was 2 (Interactive), meaning that the attempt happened locally at the keyboard, not over the network. The source was <Redacted> <private-ip>.
 
 Assessment:
-No indicators of malicious activity was identified. The failed login originated locally, suggetsing a user mistyped their password. There werer no repeated login attempts or unusual patterns observed.
+No indicators of malicious activity were identified. The failed login originated locally, suggesting a user mistyped their password. There were no repeated login attempts or unusual patterns observed.
 
 Containment/Action Taken:
-- Reviewed security logs for additional failed attemps
+- Reviewed security logs for additional failed attempts
 - Confirmed not remote logons (type 3, 10)
 
 Recommendation:
